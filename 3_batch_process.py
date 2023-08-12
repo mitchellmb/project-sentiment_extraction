@@ -168,6 +168,7 @@ def process_chunk(chunk, ID):
     chunk.to_csv(r'../csv_processed/batches/' + str(ID) + r'_batch.csv', index=False)
     
 #%%
+#--------------------------------------------------------------------------------------------------------#  
 #Load all data points in batches and process each one sequentially
     #A 100,000 batch takes about ~22m to preprocess fully
     #70 batches to run
