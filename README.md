@@ -5,6 +5,7 @@ This project looks at aggregated reviews from the open source Yelp data set from
 
 The project starts with an initial data exploration notebook 0_Yelp_reviews_data_exploration.ipynb to figure out what the contents of the data are and how to use feature engineering to extract meaningful information, in particular, from the textual data.
 
+
 Then, the project workflow follows:
 
 1_json_to_csv.py - convert all JSON files to csv for easier reading/writing
@@ -13,7 +14,7 @@ Then, the project workflow follows:
 
 3_batch_process.py - batch process feature engineering of chunks of data, following the original (TITLE) notebook exploration
 
-	- import 3_1_text_preprocess.py to extract textual information
+   - import 3_1_text_preprocess.py to extract textual information
  
 4_XGBoost_model.ipynb - fit a boosted tree model to classify results and examine most important model features
 
